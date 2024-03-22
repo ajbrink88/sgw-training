@@ -1,3 +1,2 @@
-ssg-license.yaml
-ssg-secret.yaml
-Broadcom_8619239950955558821_SSG_Enterprise_11.xml
+secrets/
+license/
