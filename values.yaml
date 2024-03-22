@@ -1,0 +1,23 @@
+# Use set file to place a Gateway license here
+license:
+  value:
+  accept: true
+  existingSecretName: ssg-license
+
+image:
+  tag: 11.0.00_CR2
+
+existingGatewaySecretName: ssg-secret
+
+clusterHostname: sgw-ephemeral
+
+database:
+  enabled: false
+  create: false
+
+tls:
+  useSignedCertificates: false
+
+management:
+  graphman:
+   enabled: true
